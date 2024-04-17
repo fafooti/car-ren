@@ -4,6 +4,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -14,7 +15,7 @@ module.exports = {
       },
       colors: {
         backgroundWhite: "#F5F5F5",
-        primaryPurple: "##6542F5",
+        primaryPurple: "#6542F5",
         primaryBlack: "#181818",
         primaryBlue: "#2B93F3",
         primaryOrange: "#F37044",

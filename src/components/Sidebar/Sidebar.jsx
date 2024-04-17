@@ -19,7 +19,7 @@ const cars = ["All Cars", "All Meta Car", "Reserved cars"];
 const orderList = ["All Orders", "Pending Orders"];
 function Sidebar() {
   return (
-    <div className="bg-primaryBlack h-full whitespace-nowrap  pb-20 min-w-[265px] flex flex-col gap-2 ">
+    <div className="bg-primaryBlack h-full whitespace-nowrap  pb-20 w-full flex flex-col gap-2 ">
       <div className="border-b border-dashed w-full flex justify-center py-8 border-secondaryPurple">
         <Image src={logo} />
       </div>
