@@ -5,7 +5,7 @@ import OrderHeader from './OrderHeader';
 
 function OrderList() {
   return (
-    <div className="w-[1114px] bg-white my-20 flex h-full flex-col mx-auto  ">
+    <div className="1440:w-[1114px] w-11/12 bg-white my-20 flex h-full flex-col mx-auto  ">
      <Categories/>
       <OrderHeader />
       <OrderCard />

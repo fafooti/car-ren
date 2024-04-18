@@ -22,7 +22,7 @@ module.exports = {
         secondaryPurple: "#F7F5FF",
         primaryGray: "#333333",
         secondaryGray: "#868686",
-        secondaryPurple: "#494E65",
+        // secondaryPurple: "#494E65",
       },
 
       screens: {

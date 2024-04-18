@@ -7,7 +7,7 @@ function Categories() {
   };
 
   return (
-    <div className="flex justify-between w-1/2 mt-4 ">
+    <div className=" px-8 flex justify-between w-1/2 mt-4 ">
       <p
         className={`pb-4 ${
           selected === "all" ? "border-b-2 border-primaryPurple" : ""
