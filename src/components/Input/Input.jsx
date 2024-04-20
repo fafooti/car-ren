@@ -11,6 +11,7 @@ const Input = ({
   type,
   error,
   tooltip,
+  hidden,
   ...props
 }) => {
   const handleClickEnter = (e) => {
@@ -26,12 +27,17 @@ const Input = ({
 //   }`;
   return (
     <div
-      className="relative flex flex-col gap-2 text-blackText dark:text-white py-1"
+      className={`relative flex flex-col gap-2 text-blackText dark:text-white py-1 ${
+        hidden ? "hidden" : ""
+      }`}
       name={name}
     >
-      {label && <label className="text-black text-md ">{label}</label>}
-      {desc && <p className="text-secondaryGray text-sm" >{desc}</p>}
+      {label && (
+        <label className="text-black text-md  font-semibold ">{label}</label>
+      )}
+      {desc && <p className="text-secondaryGray text-sm">{desc}</p>}
       <input
+        type={type}
         className={` ${className ?? ""}`}
         placeholder={placeholder}
         value={value}

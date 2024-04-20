@@ -5,6 +5,7 @@ import Link from 'next/link';
 import arrow from "/public/icons/arrow.svg"
 import Image from 'next/image';
 import BasicInformation from './BasicInformation';
+import Documents from './Documents';
 function AddUser() {
   return (
     <div className="flex  flex-col my-10 1440:w-[1114px] w-11/12 mx-auto border">
@@ -21,6 +22,7 @@ function AddUser() {
         </div>
       </div>
       <BasicInformation/>
+      <Documents/>
     </div>
   );
 }
