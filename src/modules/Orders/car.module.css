@@ -1,0 +1,11 @@
+
+
+.slider {
+ 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider>* {
+    scroll-snap-align: start;
+}

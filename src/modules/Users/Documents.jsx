@@ -23,7 +23,7 @@ function Documents() {
   return (
     <div className=" w-full px-4 bg-white mt-10   ">
       <div className="border-b flex justify-between py-10 ">
-        <p>Documents</p>
+        <p>Document</p>
         <Image
           onClick={handleShowDetails}
           className={`${showDetails ?? "rotate-180"} : ""`}
