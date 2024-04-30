@@ -22,6 +22,8 @@ module.exports = {
         secondaryPurple: "#F7F5FF",
         primaryGray: "#333333",
         secondaryGray: "#868686",
+        primaryGreen: "#3C9A4F",
+        
         // secondaryPurple: "#494E65",
       },
 
